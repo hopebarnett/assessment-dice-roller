@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <label for="someName">Enter a number of dice:</label>
+    <input type="number" name="someName" id="input-number">
+    <button id="roll-dice-button">Roll!</button>
+    <p>Total: <span id='total_sum'>___</span> </p>
+    <button id="show_all_rolls">Show All Rolls</button>
+    <ol id = "allRolls">
+    </ol>
+    <button id="reset_button">Reset</button>
+    <script src="./main.js"></script>
+
+    <!-- <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ol> -->
+
+
+
 </body>
+
+
 </html>
+  
